@@ -58,9 +58,10 @@ $ source ~/colcon_ws/install/local_setup.bash
 2. Run orbslam mode, which you want.  
 This repository only support `MONO, STEREO, RGBD, STEREO-INERTIAL` mode now.  
 You can find vocabulary file and config file in here. (e.g. `orbslam3_ros2/vocabulary/ORBvoc.txt`, `orbslam3_ros2/config/monocular/TUM1.yaml` for monocular SLAM).
-  - `MONO` mode  
+  - `MONO` mode  (See notes.txt in root level of repo)
 ```
 $ ros2 run orbslam3 mono PATH_TO_VOCABULARY PATH_TO_YAML_CONFIG_FILE
+$ ros2 run orbslam3 url_camera_publisher.py
 ```
   - `STEREO` mode  
 ```
