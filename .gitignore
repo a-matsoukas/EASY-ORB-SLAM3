@@ -9,3 +9,5 @@ CameraTrajectory.txt
 KeyFrameTrajectory.txt
 
 src/orbslam3_ros2/vocabulary/ORBvoc.txt
+
+.vscode/
