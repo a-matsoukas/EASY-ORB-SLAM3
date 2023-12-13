@@ -15,7 +15,8 @@ class CameraPublisher(Node):
         self.publisher_ = self.create_publisher(Image, 'camera', 10)
         self.timer = self.create_timer(0.1, self.timer_callback)
         self.bridge = CvBridge()
-        self.video_url = 'http://10.0.0.26:8080/video_feed'
+        # self.video_url = 'http://10.0.0.26:8080/video_feed'
+        self.video_url = "http://192.168.34.92:5000/video_feed"
 
     def timer_callback(self):
         response = requests.get(self.video_url, stream=True)
