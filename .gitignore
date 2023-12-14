@@ -2,6 +2,10 @@
 /build/
 /install/
 /log/
+/src/orbslam3_ros2/src/build/
+/src/orbslam3_ros2/src/install/
+/src/orbslam3_ros2/src/log/
+
 
 # Ignore specific files
 .env
@@ -11,3 +15,5 @@ KeyFrameTrajectory.txt
 src/orbslam3_ros2/vocabulary/ORBvoc.txt
 
 .vscode/
+/bags/
+/camera_stream/__pycache__
