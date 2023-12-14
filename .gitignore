@@ -1,10 +1,10 @@
 # Ignore build, install, and log folders
-/build/
-/install/
-/log/
-/src/orbslam3_ros2/src/build/
-/src/orbslam3_ros2/src/install/
-/src/orbslam3_ros2/src/log/
+# /build/
+# /install/
+# /log/
+# /src/orbslam3_ros2/src/build/
+# /src/orbslam3_ros2/src/install/
+# /src/orbslam3_ros2/src/log/
 
 
 # Ignore specific files
