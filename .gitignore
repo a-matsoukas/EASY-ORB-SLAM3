@@ -17,3 +17,10 @@ src/orbslam3_ros2/vocabulary/ORBvoc.txt
 .vscode/
 /bags/
 /camera_stream/__pycache__
+
+# gh-pages specific files
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
